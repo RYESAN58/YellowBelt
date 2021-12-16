@@ -1,0 +1,145 @@
+body{
+    background-color: rgba(177, 177, 177, 0.753);
+}
+#Header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: whitesmoke;
+    height: 100px;
+    justify-content: space-between;
+    border-top: solid purple 6px;
+    padding: 0px 80px;
+}
+#border{
+    background-color: purple;
+    height: 10px;
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    border: solid white 3px;
+    height: 100px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+#con1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#mian-pic{
+    width: 700px;
+    height: auto;
+}
+#left-icon{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#right-icon{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#right-arrow{
+    transform: scaleX(-1);
+}
+#mid{
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.space{
+    background-color: rgb(68, 66, 68);
+    height: 5px;
+    width: 50px;
+    border-radius: 25px;
+}
+#final{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.mphoto{
+    width: 250px;
+    height: auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: white;
+
+}
+.top{
+    display: flex;
+    flex-direction: column;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.sizer{
+    width: 25px;
+    height: auto;
+}
+.purple{
+    width: 55px;
+    height: 35px;
+    background-color: purple;
+    border-color: purple;
+    color: white;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+.buy{
+    background-color: green;
+    color: white;
+    width: 55px;
+    height: 35px;
+    border: green;
+    margin-right: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+#purple-div{
+    background-color: purple;
+}
+p{
+    font-weight: bold;
+    margin-left: 5px;
+}
+#head{
+    color: purple;
+}
+#money{
+    height: 40px;
+    margin-bottom: 65px;
+}
+.shop{
+    height: 40px;
+}
+#shop{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+#number{
+    font-size: 30px;
+    border-bottom: white solid 2px;
+    display: inline;
+    margin-left: -40px;
+}
+.arrow{
+    cursor: pointer;
+}

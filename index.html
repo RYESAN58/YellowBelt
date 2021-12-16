@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamingDojo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="Header">
+        <h1>Gaming<span id="head">Dojo</span></h1>
+        <div id="shop">
+            <select name="currency" id="money">
+                <option value="USD">USD$</option>
+                <option value="Euro">Euro€</option>
+            </select>
+            <img src="images/cart-light.png" alt="E shopping cart" class="shop">
+            <div id="sample"><p id="number">0</p></div>
+            <img src="images/search-light.png" alt="electronic magnfying glass" class="shop">    
+        </div>
+    </div>
+    <p style="margin: 10px 0px 0px 80px;">Highlights</p>
+    <div id="container">
+        <div id="con1">
+            <div id="left-icon">
+                <img src="images/chevron-left.png" alt="left arrow" class="arrow" onclick="image2()">
+            </div>
+            <div id="main-content">
+                <img src="images/stonepunk.png" alt="business logo" id="main-pic">
+            </div>
+            <div id="right-icon">
+                <img src="images/chevron-left.png" alt="right arrow"  class="arrow" id = "right-arrow" onclick="image()">
+            </div>
+        </div>
+        <div id="mid">
+            <div class="space"></div>
+            <div class="space" id="purple-div"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+        </div>
+        <div id="final">
+            <div class="content">
+                <div class="top">
+                    <img src="images/cafe-neko.png" alt="cafe neki picture" class="mphoto">
+                    <p>Cafe Neko: Gold Edition</p>
+                    <div class="icon">
+                        <img src="images/windows.png" alt="windows logo" class="sizer">
+                        <img src="images/apple.png" alt="apple logo" class="sizer">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <button class="purple">-20%</button>
+                    <div class="discount">
+                        <p class="price">$16.95</p>
+                        <p class="price">$11.87</p>
+                    </div>
+                    <button class="buy" onclick="cart()">Buy</button>
+                </div>
+            </div>
+            <div class="content">
+                <div class="top">
+                    <img src="images/pixel-ninjas-2.png" alt="ninja game" class="mphoto">
+                    <p>Pixel Ninjas 2</p>
+                    <div class="icon">
+                        <img src="images/windows.png" alt="windows logo" class="sizer">
+                        <img src="images/apple.png" alt="apple logo" class="sizer">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <button class="purple">-10%</button>
+                    <div class="discount">
+                        <p class="price">$9.27</p>
+                        <p class="price">$8.36</p>
+                    </div>
+                    <button class="buy" onclick="cart()">Buy</button>
+                </div>
+            </div>
+            <div class="content">
+                <div class="top">
+                    <img src="images/stonepunk.png" alt="stonepunk" class="mphoto">
+                    <p>Stonepunk 10000 BCE</p>
+                    <div class="icon">
+                        <img src="images/windows.png" alt="windows logo" class="sizer">
+                        <img src="images/apple.png" alt="apple logo" class="sizer">
+                        <img src="images/linux.png" alt="linux logo" class="sizer" onclick="warning()">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <button class="purple">NEW</button>
+                    <p class="price">$11.87</p>
+                    <button class="buy" onclick="cart()">Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
