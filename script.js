@@ -6,11 +6,11 @@ function image2(){
     document.getElementById('main-pic').src = "images/stonepunk.png"
 }
 
-var y = 0;
+let y = 0;
 function cart(){
     y++;
     document.getElementById('number').innerText = y;
-    console.log(y);
+    return y
 }
 
 function warning(){

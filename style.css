@@ -139,7 +139,62 @@ p{
     border-bottom: white solid 2px;
     display: inline;
     margin-left: -40px;
+    color: white;
 }
 .arrow{
     cursor: pointer;
+}
+#BS-Header{
+    color: purple;
+}
+
+#navbarNav{
+    color: purple;
+}
+#BS-tittle{
+    color: white;
+}
+#bsnav{
+    border-top: solid .5em purple;
+}
+#bsicons{
+    color: white;
+}
+#bssearch{
+    color: white;
+    margin-left: -2rem;
+}
+#bsnumber{
+    color: white;
+    display: inline;
+    border-bottom: 2px white solid;
+}
+#bsselect{
+    margin-left: 10rem;
+}
+.bspic{
+    width: 50rem;
+    height: auto;
+}
+.carousel{
+    margin-left: 100px;
+}
+#bs-btn1,#bs-btn2,#bs-btn3{
+    background-color: purple;
+    color: white;
+    height: 50px;
+}
+.btn{
+    height: 50px;
+}
+#bspic,#bspic2,#bspic3{
+    width: 50%;
+    height: auto;
+}
+#carouselExampleControls{
+    margin-left: -2rem;
+    margin-top: 1rem;
+}
+#bsrow{
+    margin-left: 8rem;
 }
